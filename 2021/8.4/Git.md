@@ -78,6 +78,10 @@ ___
 - ""원격저장소 주소와 연결
 - 한번 origin으로 추가되면 다시 추가할 필요 없음. 
 - add대신 rm넣으면 origin 설정 제거됨, 이때는 주소 작성x
+### git remote -v
+- 현재 연결된 원격저장소 주소 확인
+### git remote set-url origin ""
+- ""원격저장소 주소로 주소 변경
 ### git push origin ""
 - ""branch에 커밋한 파일들을 push
 - origin은 원격저장소 이름이나 보통 안바꿈
